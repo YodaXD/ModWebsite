@@ -21,6 +21,9 @@ li{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.header-main-center{
+    
+}
 .header-center-uldiv{
     display: flex;
     flex-direction: row;
