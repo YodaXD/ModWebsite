@@ -186,67 +186,41 @@ html{
     border-radius: 1%;    
     margin-right: 0.1rem;
 }
+/* mod card */
+
 table{
-    border: 1px black solid;
-    text-align: start;
-    width:190px;
-    height: 100px;
     background-color: rgb(50,50,50);
+    
 }
-tr{
-    text-align: start;
-    background-color: rgb(50,50,50);
+.mod-card{
+    width: 100%;
+    border: 2px black   solid;
 }
-.image img{
+.image{
     padding: 0%;
-    border: 1px black solid;
-    width: 15rem;
-    height: 10rem;
 }
-.name{
-    border: 1px black solid;
-    text-align: start;
-    background-color: rgb(50,50,50);
+.mod-card-image{
+    width: 100%;
+    height: 100%;
+    align-content: center; 
+      
+}	
+
+.mod-card-image img{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
 }
-.name p{
-    margin: 0%;
-    margin-left: 10px;
-    background-color: rgb(50,50,50);
+.mod-card-image td{
+    min-width: 150px;
+    min-height: 200px;
 }
-.creator{
-    border: 1px black solid;
-    text-align: start;
-    background-color: rgb(50,50,50);
+
+
+.like-button:hover{
+    cursor: pointer;
+    color: red;
 }
-.creator p{
-    margin: 0%;
-    margin-left: 10px;
-    background-color: rgb(50,50,50);
-}
-.valoration{
-    border: 1px black solid;
-    text-align: start;
-    background-color: rgb(50,50,50);
-}
-.valoration p{
-    margin: 0%;
-    margin-left: 10px;
-    background-color: rgb(50,50,50);
-}
-.start1{
-    fill: rgb(246, 246, 17);
-}
-.start2{
-    fill: rgb(246, 246, 17);
-}
-.start3{
-    fill: rgb(246, 246, 17);
-}
-.start4{
-    fill: rgb(246, 246, 17);
-}
-.start5{
-    fill: rgb(246, 246, 17);
-}
+
 
 

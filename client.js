@@ -40,7 +40,7 @@ async function CheckCookies(cookie,req,res){
 // WEB GET Routes
 app.get("/", async (req, res) => {
     var data = await modcontrollers.modcom();
-    res.render("html/modstable", {data});
+    res.render("html/homepage", {data});
 });
 
 module.exports = app;

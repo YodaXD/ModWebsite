@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mods Webiste</title>
   <link rel="stylesheet" href="../css/homepage.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
    <!--Header Start-->
@@ -46,15 +48,15 @@
         {{#each data}}
           <table class="mod-card">
               <tr class="mod-card-image">
-                  <td colspan="2">
-                      <img width="150px" height="200px" src="images/background.jpg" alt="">
+                  <td class="image"colspan="2">
+                      <img src="images/background.jpg" alt="">
                   </td>
               </tr>
               <tr class="mod-card-title">
-                  <td><strong>{{this.name}}</strong></td>
+                  <td class="name"><strong>{{this.name}}</strong></td>
               </tr>
               <tr class="mod-card-bottom">
-                  <td>{{this.version}}</td>
+                  <td class="version">{{this.version}}</td>
                   <td>{{this.likes}} <span><i onclick="like()" class="like-button bi bi-heart-fill"></i></span></td>
               </tr>
             </table> 
@@ -63,6 +65,7 @@
           <script>
             function like(){
             console.log("like");
+            
           }
           </script>
       </div>
