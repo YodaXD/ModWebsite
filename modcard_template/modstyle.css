@@ -1,0 +1,52 @@
+table{
+    border: 1px black solid;
+    text-align: start;
+}
+tr{
+    text-align: start;
+}
+.image img{
+    padding: 0%;
+    border: 1px black solid;
+    width: 15rem;
+    height: 10rem;
+}
+.name{
+    border: 1px black solid;
+    text-align: start;
+}
+.name p{
+    margin: 0%;
+    margin-left: 10px;
+}
+.creator{
+    border: 1px black solid;
+    text-align: start;
+}
+.creator p{
+    margin: 0%;
+    margin-left: 10px;
+}
+.valoration{
+    border: 1px black solid;
+    text-align: start;
+}
+.valoration p{
+    margin: 0%;
+    margin-left: 10px;
+}
+.start1{
+    fill: rgb(246, 246, 17);
+}
+.start2{
+    fill: rgb(246, 246, 17);
+}
+.start3{
+    fill: rgb(246, 246, 17);
+}
+.start4{
+    fill: rgb(246, 246, 17);
+}
+.start5{
+    fill: rgb(246, 246, 17);
+}
