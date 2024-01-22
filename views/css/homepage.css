@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+.header-main{
+    color: white;
+    background-color: rgb(50,50,50);
+}
+
+.header-main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-left-title{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.header-main-center{
+    
+}
+.header-center-uldiv{
+    display: flex;
+    flex-direction: row;
+}
