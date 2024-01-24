@@ -59,32 +59,52 @@ html{
     align-self: center;
     width: fit-content;
     height: fit-content;
-    
+    align-items: center;
 }
-.header-center-ul{
-    padding-left: 0%;   
-    display: flex;
-    flex-direction: row;   
-    justify-content: center;
-    max-width: fit-content;
-    
-    
-}
-.header-center-ul-item{
-    margin-right: 0.75rem;
-    list-style: none;
-    max-width: fit-content;
-}
-.header-center-ul-item a{
-    color:white;
-    text-decoration: none;
-    list-style-type: none;
-}
-/* rigth header */
+
 .header-right-div{
     max-width: fit-content;
     height: 100px;   
 }
+.header-center-inicio:hover .header-center-dropdown{
+    display:block;
+}
+.header-center-dropdown{
+    
+        display: none;
+        position: absolute;
+        max-width: fit-content;
+        overflow: auto;
+        
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+      
+}
+.header-center-menu{
+    color: white;
+    font-size: 1rem;
+}
+.menu{
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(50,50,50);
+    border: 0px black solid;
+    padding: 0.4rem;
+}
+.header-center-dropdown a{
+    display: block;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 0.75rem;
+    background-color: rgb(50,50,50);
+}
+.header-center-dropdown a:hover{
+    color: #FFFFFF;
+    background-color: rgb(78, 78, 78);
+}
+
+/* rigth header */
+
 .header-right-ul{
     max-width: fit-content; 
     margin-right: 10px;    
