@@ -15,7 +15,7 @@
         "description":"This is the second mod",
         "version":"1.0.0",
         "author":"YodaXD",
-        "url":"http://www.google.com",
+        "url":"sapalomera.cat",
         "likes":"0",
         "downloads":"0"
         },
@@ -30,8 +30,8 @@
         "downloads":"0"  
     },
     {
-        "id":"3",        
-        "name":"Mod Number 3",
+        "id":"4",        
+        "name":"Mod Number 4",
         "description":"This is the third mod",
         "version":"1.0.0",
         "author":"YodaXD",
@@ -40,8 +40,8 @@
         "downloads":"0"  
     },
     {
-        "id":"3",        
-        "name":"Mod Number 3",
+        "id":"5",        
+        "name":"Mod Number 5",
         "description":"This is the third mod",
         "version":"1.0.0",
         "author":"YodaXD",
@@ -50,8 +50,8 @@
         "downloads":"0"  
     },
     {
-        "id":"3",        
-        "name":"Mod Number 3",
+        "id":"6",        
+        "name":"Mod Number 6",
         "description":"This is the third mod",
         "version":"1.0.0",
         "author":"YodaXD",
@@ -60,8 +60,8 @@
         "downloads":"0"  
     },
     {
-        "id":"3",        
-        "name":"Mod Number 3",
+        "id":"7",        
+        "name":"Mod Number 7",
         "description":"This is the third mod",
         "version":"1.0.0",
         "author":"YodaXD",

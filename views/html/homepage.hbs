@@ -57,11 +57,11 @@
                   </td>
               </tr>
               <tr class="mod-card-title">
-                  <td class="name"><strong>{{this.name}}</strong></td>
+                  <td class="name"><a class="mod-title" href="{{this.url}}"><strong>{{this.name}}</strong></a></td>
               </tr>
               <tr class="mod-card-bottom">
                   <td class="version">{{this.version}}</td>
-                  <td>{{this.likes}} <span><i onclick="like()" class="like-button bi bi-heart-fill"></i></span></td>
+                  <td><label for="like-button">{{this.likes}}</label> <span><i onclick="like()" class="like-button bi bi-heart-fill"></i></span></td>
               </tr>
             </table> 
         {{/each}}

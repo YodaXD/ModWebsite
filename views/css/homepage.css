@@ -222,10 +222,8 @@ table{
 .mod-card-image{
     width: 100%;
     height: 100%;
-    align-content: center; 
-      
-}	
-
+    align-content: center;       
+}
 .mod-card-image img{
     width: 200px;
     height: 150px;
@@ -235,12 +233,11 @@ table{
     min-width: 150px;
     min-height: 200px;
 }
-
-
+.mod-title{
+    text-decoration: none;
+    color: black;
+}
 .like-button:hover{
     cursor: pointer;
     color: red;
 }
-
-
-
