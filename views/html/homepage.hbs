@@ -61,7 +61,7 @@
               </tr>
               <tr class="mod-card-bottom">
                   <td class="version">{{this.version}}</td>
-                  <td><label for="like-button">{{this.likes}}</label> <span><i onclick="like()" class="like-button bi bi-heart-fill"></i></span></td>
+                  <td><label>{{this.likes}}<span></label><input class="checkbox" type="checkbox" id={{this.id}} onclick=like()> <label class="like-button bi bi-heart-fill" for={{this.id}}></span></td>
               </tr>
             </table> 
         {{/each}}

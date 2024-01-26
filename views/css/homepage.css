@@ -241,3 +241,10 @@ table{
     cursor: pointer;
     color: red;
 }
+.checkbox:checked + .like-button{
+    cursor: pointer;
+    color: red;
+}
+.checkbox{
+    visibility: hidden;
+}
