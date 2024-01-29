@@ -42,5 +42,8 @@ app.get("/", async (req, res) => {
     var data = await modcontrollers.modcom();
     res.render("html/homepage", {data});
 });
+app.get("/like/:id", async (req, res) => {
+    console.log("Like a el mod con id: " + req.params.id);
+});
 
 module.exports = app;

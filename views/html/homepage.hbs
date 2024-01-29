@@ -61,16 +61,20 @@
               </tr>
               <tr class="mod-card-bottom">
                   <td class="version">{{this.version}}</td>
-                  <td><label>{{this.likes}}<span></label><input class="checkbox" type="checkbox" id={{this.id}} onclick=like()> <label class="like-button bi bi-heart-fill" for={{this.id}}></span></td>
+                  <td><label>{{this.likes}}<span></label><input class="checkbox" type="checkbox" id={{this.id}} onclick=like({{this.id}})> <label class="like-button bi bi-heart-fill" for={{this.id}}></span></td>
               </tr>
             </table> 
         {{/each}}
         {{!-- Fin Casilla Mod --}}
           <script>
-            function like(){
-            console.log("like");
+            async function like(id){
+              const response = await fetch ('http://localhost/like/'+id, {
+              method: 'GET',
+              headers: {
+              'Content-Type': 'application/json'
+                },
             
-          }
+          })}
           </script>
       </div>
     </section>
