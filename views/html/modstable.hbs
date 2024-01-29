@@ -22,15 +22,20 @@
   </tr>
   <tr class="mod-card-bottom">
     <td>{{this.version}}</td>
-    <td>{{this.likes}} <span><i onclick="like()" class="like-button bi bi-heart-fill"></i></span></td>
+    <td>{{this.likes}} <span><i onclick="like({{this.id}})" class="like-button bi bi-heart-fill"></i></span></td>
   </tr>
 </table> 
 {{/each}}
 {{!-- Fin Casilla Mod --}}
   </section>
   <script>
-    function like(){
-      console.log("like");
+    async function like(id){
+      const response = await fetch ('http://localhost/like/'+id, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+      })
     }
   </script>
 </body>

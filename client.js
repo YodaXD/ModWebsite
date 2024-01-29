@@ -43,4 +43,8 @@ app.get("/", async (req, res) => {
     res.render("html/modstable", {data});
 });
 
+app.get("/like/:id", async (req, res) => {
+    console.log("Like a el mod con id: " + req.params.id);
+});
+
 module.exports = app;
